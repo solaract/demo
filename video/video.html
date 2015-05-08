@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>video</title>
+</head>
+<body>
+	<canvas id="videoDate"width='800' height='600'>
+	
+		<video id='video' width="800" height='600' controls="controls" autoplay>
+		  <source src="video/badapple.mp4" type="video/mp4" />
+		  <source src="movie.ogg" type="video/ogg" />
+		  <source src="movie.webm" type="video/webm" />
+		  <object data="video/badapple.mp4" width="800" height='600'>
+		    <embed src="movie.swf" width="800" height='600' />
+		  </object>
+		</video>
+	</canvas>	
+</body>
+<script src="js/video.js"></script>
+</html>
